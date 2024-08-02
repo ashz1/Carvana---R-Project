@@ -8,27 +8,27 @@ This project involves a comprehensive analysis of vehicle auction data to assess
 
 In this project, we utilized data from Carvana’s Kaggle competition, “Don’t Get Kicked,” to predict the likelihood of a car being a “bad buy.” The key steps undertaken include:
 
-	•	Data Processing: Loading and preprocessing the dataset, followed by exploratory analysis to understand its characteristics.
-	•	Visualizations: Creating visual insights into car makes, sizes, and origins using ggplot2.
-	•	Model Deployment: Predicting car buy quality with logistic regression and evaluating the model’s accuracy.
+Data Processing: Loading and preprocessing the dataset, followed by exploratory analysis to understand its characteristics.
+Visualizations: Creating visual insights into car makes, sizes, and origins using ggplot2.
+Model Deployment: Predicting car buy quality with logistic regression and evaluating the model’s accuracy.
 
 <h2>Project Walkthrough</h2>
 
-	1.	Data Cleaning and Exploration: We began by loading and cleaning the dataset to ensure data integrity and quality. We explored the dataset’s characteristics using summary statistics and visualizations, including identifying the most popular car makes, common car sizes, and car origins.
-	2.	Correlation Analysis: We conducted Pearson’s correlation analysis to identify the factors most correlated with the target variable (IsBadBuy). This analysis highlighted significant predictors, including vehicle age, mileage, acquisition cost, and year of manufacture.
-	3.	Regression Modeling: We developed a predictive model using logistic regression to determine whether a car is a “bad buy.” The model used key features, such as Vehicle Age, Vehicle Year, Warranty Cost, Odometer Reading, and Acquisition Cost, to make predictions.
-	4.	Model Evaluation: The predictive model’s performance was evaluated using metrics such as accuracy, precision, recall, and the confusion matrix. The model achieved an accuracy rate of 87%, demonstrating its effectiveness in predicting “bad buys.”
+1.	Data Cleaning and Exploration: We began by loading and cleaning the dataset to ensure data integrity and quality. We explored the dataset’s characteristics using summary statistics and visualizations, including identifying the most popular car makes, common car sizes, and car origins.
+2.	Correlation Analysis: We conducted Pearson’s correlation analysis to identify the factors most correlated with the target variable (IsBadBuy). This analysis highlighted significant predictors, including vehicle age, mileage, acquisition cost, and year of manufacture.
+3.	Regression Modeling: We developed a predictive model using logistic regression to determine whether a car is a “bad buy.” The model used key features, such as Vehicle Age, Vehicle Year, Warranty Cost, Odometer Reading, and Acquisition Cost, to make predictions.
+4.	Model Evaluation: The predictive model’s performance was evaluated using metrics such as accuracy, precision, recall, and the confusion matrix. The model achieved an accuracy rate of 87%, demonstrating its effectiveness in predicting “bad buys.”
 
 <h2>Recommendations and Insights</h2>
 
 Based on our analysis and the predictive model, we provided Carvana with valuable recommendations to enhance their vehicle acquisition strategy:
 
-	•	Focus on acquiring cars with lower odometer readings to ensure better condition and reduce wear and tear.
-	•	Target cars with an average age of around 4-4.5 years to balance cost and age.
-	•	Consider acquiring newer cars, as they tend to be in better condition and have a higher likelihood of being a “good buy.”
-	•	Avoid purchasing cars from makes like Mercury and Mini, as they have shown a higher likelihood of being a “bad buy.”
-	•	Pay attention to the age range indicated by dark blue patches in the analysis, as these cars are more likely to be “bad buys.”
-	•	Prioritize acquiring vehicles from top-performing makes, as they tend to be more reliable regardless of their age.
+•	Focus on acquiring cars with lower odometer readings to ensure better condition and reduce wear and tear.
+•	Target cars with an average age of around 4-4.5 years to balance cost and age.
+•	Consider acquiring newer cars, as they tend to be in better condition and have a higher likelihood of being a “good buy.”
+•	Avoid purchasing cars from makes like Mercury and Mini, as they have shown a higher likelihood of being a “bad buy.”
+•	Pay attention to the age range indicated by dark blue patches in the analysis, as these cars are more likely to be “bad buys.”
+•	Prioritize acquiring vehicles from top-performing makes, as they tend to be more reliable regardless of their age.
 
 <h2>Libraries Used</h2>
 
