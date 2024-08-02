@@ -24,10 +24,15 @@ Model Deployment: Predicting car buy quality with logistic regression and evalua
 Based on our analysis and the predictive model, we provided Carvana with valuable recommendations to enhance their vehicle acquisition strategy:
 
 •	Focus on acquiring cars with lower odometer readings to ensure better condition and reduce wear and tear.
+
 •	Target cars with an average age of around 4-4.5 years to balance cost and age.
+
 •	Consider acquiring newer cars, as they tend to be in better condition and have a higher likelihood of being a “good buy.”
+
 •	Avoid purchasing cars from makes like Mercury and Mini, as they have shown a higher likelihood of being a “bad buy.”
+
 •	Pay attention to the age range indicated by dark blue patches in the analysis, as these cars are more likely to be “bad buys.”
+
 •	Prioritize acquiring vehicles from top-performing makes, as they tend to be more reliable regardless of their age.
 
 <h2>Libraries Used</h2>
